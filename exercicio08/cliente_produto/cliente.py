@@ -8,15 +8,18 @@ class cliente:
       "rua": rua,
       "numero": numero
     }
+  
   def adicionar_endereco(self,cidade,bairro,rua,numero):
     self.endereco["cidade"] = cidade
     self.endereco["bairro"] = bairro
     self.endereco["rua"] = rua
     self.endereco["numero"] = numero
+  
   def mostrar_endereco(self):
     print("Endereço do cliente:")
     for chave,valor in self.endereco.items():
       print(f"{chave.capitalize()}: {valor}")
+  
   def mostrar_cliente(self):
     print(f"{self.nome}")
     print(f"{self.cpf}")
