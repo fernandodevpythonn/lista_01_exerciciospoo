@@ -1,7 +1,7 @@
 from cliente_produto.cliente import cliente
 from cliente_produto.produto import produto
 prod = produto()
-cliente = cliente()
+cli = cliente()
 
 
 def menu():
@@ -17,8 +17,8 @@ def main():
   match opcao:
 
     case "1":
-      cliente.nome = input("Nome: ")
-      cliente.cpf = int(input("cpf: "))
+      cli.nome = input("Nome: ")
+      cli.cpf = int(input("cpf: "))
       cidade = input("Cidade: ")
       bairro = input("Bairro: ")
       rua = input("Rua: ")
@@ -26,22 +26,19 @@ def main():
         numero = int(input("Número: "))
       except ValueError:
         print("Erro: Digite um número válido")
-      cliente.adicionar_endereco(cidade,bairro,rua,numero)
-      cliente.mostrar_endereco()
+      cli.adicionar_endereco(cidade,bairro,rua,numero)
+      cli.mostrar_endereco()
       print("=====")
 
     case "2":
-      cliente.mostrar_cliente()
+      cli.mostrar_cliente()
       input("aperte enter para voltar")
 
     case "3":
-      prod.nome = input("Nome do produto: ")
-      prod.marca = input("Marca: ")
-      prod.valor = float(input("Valor: "))
-      prod.produto += prod.nome
-      prod.produto += prod.marca
-      print(prod.produto)
-      print(prod.lista_produtos)
+      prod.produto_nome = input("Nome do produto: ")
+      prod.produto_marca = input("Marca: ")
+      prod.produto_valor = float(input("Valor: "))
+      prod.inserir_produtos(prod.produto_nome)
       input("aperte enter para voltar")
 
     case "4":
@@ -49,22 +46,26 @@ def main():
       input("aperte enter para voltar")
 
     case "5":
-      if cliente.nome == True:
-        nome = input("digite o nome do produto: ")
-        marca = input("marca: ")
-        if nome == produto.nome and marca == prod.marca:
-          print("produto existe")
-          print(f"Produto: {produto.nome} Valor: {prod.valor}")
-          comprar = input("deseja finalizar a compra? ")
-          if comprar == "sim":
+      if cli.nome:
+        if prod.produto_nome:
+          nome = input("digite o nome do produto: ")
+          marca = input("marca: ")
+          if nome in prod.lista_produtos and marca in prod.lista_produtos:
+            print("produto existe")
+            print(f"Produto: {prod.produto_nome} Valor: {prod.produto_valor}")
+            comprar = input("deseja finalizar a compra? ")
+            if comprar == "sim":
               print("="*30)
-              print(f"Produto {nome} enviado para {cliente.nome}\n no endereço: ")
-              cliente.mostrar_endereco()
+              print(f"Produto {nome} enviado para {cli.nome}\n no endereço: ")
+              cli.mostrar_endereco()
               input("Digite enter para volta: ")
+            else:
+             print("fim")
           else:
-           print("fim")
+           print("produto não existe")
         else:
-          print("produto não existe")
+          print("Erro: Produto não cadastrado")
+          input("aperte enter para voltar")
       else:
         print("cliente ainda não cadastrado")
         input("aperte enter para voltar")
