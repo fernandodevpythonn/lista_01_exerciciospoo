@@ -1,5 +1,5 @@
-from emprestimo_livros.bibliotecario import bibliotecario
-from emprestimo_livros.livro import livro
+from .emprestimo_livros.bibliotecario import bibliotecario
+from .emprestimo_livros.livro import livro
 biblioteca = bibliotecario()
 livro = livro()
 def menu():
@@ -7,7 +7,7 @@ def menu():
   print("1 - Realizar empréstimo de livro")
   print("2 - Mostrar empréstimo")
   print("3 - Sair")
-def main():
+def main06():
   while True:
     menu()
     opcao = input("Faça sua escolha: ")
@@ -26,5 +26,3 @@ def main():
         livro.mostrar_livro()
         print(f"Livro: {livro.nome} emprestado para {biblioteca.responsavel}")
         print("")
-if __name__ == "__main__":
- main()

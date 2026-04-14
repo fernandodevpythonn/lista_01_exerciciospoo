@@ -1,10 +1,10 @@
-from cachorro import cachorro
-from gato import gato
+from .cachorro import cachorro
+from .gato import gato
 
 somcachorro = cachorro()
 somgato = gato()
 
-def main():
+def main02():
     somcachorro.nome = input("nome do cachorro: ")
     somcachorro.som = input("som do animal: ")
     somcachorro.emitir_som()
@@ -12,5 +12,3 @@ def main():
     somgato.nome = input("nome do gato: ")
     somgato.som = input("nome do gato:")
     somgato.emitir_som()
-if __name__ == "__main__":
-    main()

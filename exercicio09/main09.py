@@ -1,5 +1,5 @@
-from filme.filme_info import filmes
-from filme.categorias_info import categorias
+from .filme.filme_info import filmes
+from .filme.categorias_info import categorias
 filme = filmes()
 cat = categorias()
 def menu():
@@ -10,7 +10,7 @@ def menu():
     print("4 - Mostrar categorias")
     print("5 - Sair")
 
-def main():
+def main09():
     while True:
         menu()
         opcao = input("Escolha uma opção: ")
@@ -34,5 +34,3 @@ def main():
                 print("----Categorias----- ")
                 cat.mostrar_categorias()
     
-if __name__ == "__main__":
-    main()

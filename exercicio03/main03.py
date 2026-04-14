@@ -1,6 +1,6 @@
-from carro import carro_a
+from .carro import carro_a
 
-def main():
+def main03():
     carro_antigo = carro_a()
     carro_antigo.marca = input("marca do carro: ")
     carro_antigo.cor = input("cor do carro: ")
@@ -18,5 +18,3 @@ def main():
        raise ValueError("Erro: Digite um valor válido")
     else:
       raise ValueError("Erro: Digite um valor válido")
-if __name__ == "__main__":
-    main()

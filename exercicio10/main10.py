@@ -1,5 +1,5 @@
-from pedidos.cliente_info import cliente
-from pedidos.pedido_info import pedido
+from .pedidos.cliente_info import cliente
+from .pedidos.pedido_info import pedido
 cli = cliente()
 ped = pedido()
 import random
@@ -11,7 +11,7 @@ def menu():
     print("4 - Dados do pedido")
     print("5 - Sair")
 
-def main():
+def main10():
     while True:
         menu()
         opcao = input("Escolha uma opção: ")
@@ -41,5 +41,3 @@ def main():
                 cli.mostrar_endereco()
             case "4":
                 ped.mostrar_pedido()
-if __name__ == "__main__":
-    main()

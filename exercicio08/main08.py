@@ -1,5 +1,5 @@
-from cliente_produto.cliente import cliente
-from cliente_produto.produto import produto
+from .cliente_produto.cliente import cliente
+from .cliente_produto.produto import produto
 prod = produto()
 cli = cliente()
 
@@ -10,7 +10,7 @@ def menu():
  print("3 - Cadastrar produto")
  print("4 - Produtos cadastrados")
  print("5 - Realizar compra")
-def main():
+def main08():
  while True:
   menu()
   opcao = input("Escolha uma opção: ")
@@ -69,6 +69,3 @@ def main():
       else:
         print("cliente ainda não cadastrado")
         input("aperte enter para voltar")
-
-if __name__ == "__main__":
-  main()

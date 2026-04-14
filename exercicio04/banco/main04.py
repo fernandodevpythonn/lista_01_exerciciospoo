@@ -1,4 +1,4 @@
-from conta import conta_bancaria
+from .conta import conta_bancaria
 
 conta = conta_bancaria()
 
@@ -11,7 +11,7 @@ def menu():
     print("6 - Histórico de depositos")
     print("7 - fechar")
 
-def main():
+def main04():
     while True:
      menu()
      opcao = input("Escolha uma opção: ")
@@ -49,5 +49,3 @@ def main():
         case "7":
          print("Sistema fechado")
          break
-if __name__ == "__main__":
-  main()
