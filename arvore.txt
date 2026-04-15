@@ -1,0 +1,558 @@
+Listagem de caminhos de pasta
+O número de série do volume é 1A80-0236
+C:.
+|   arvore.txt
+|   main.py
+|   modulos.py
+|   README.md
+|   
++---.git
+|   |   COMMIT_EDITMSG
+|   |   config
+|   |   description
+|   |   FETCH_HEAD
+|   |   HEAD
+|   |   index
+|   |   ORIG_HEAD
+|   |   
+|   +---hooks
+|   |       applypatch-msg.sample
+|   |       commit-msg.sample
+|   |       fsmonitor-watchman.sample
+|   |       post-update.sample
+|   |       pre-applypatch.sample
+|   |       pre-commit.sample
+|   |       pre-merge-commit.sample
+|   |       pre-push.sample
+|   |       pre-rebase.sample
+|   |       pre-receive.sample
+|   |       prepare-commit-msg.sample
+|   |       push-to-checkout.sample
+|   |       sendemail-validate.sample
+|   |       update.sample
+|   |       
+|   +---info
+|   |       exclude
+|   |       
+|   +---logs
+|   |   |   HEAD
+|   |   |   
+|   |   \---refs
+|   |       +---heads
+|   |       |       dev
+|   |       |       
+|   |       \---remotes
+|   |           \---origin
+|   |                   dev
+|   |                   
+|   +---objects
+|   |   +---01
+|   |   |       0f2d471ce6ea7564c2f4d13722274d17ce9bc7
+|   |   |       
+|   |   +---04
+|   |   |       297dd38adb98e23c23ef2a559dd36e3a832066
+|   |   |       
+|   |   +---06
+|   |   |       14d91e6f8a89d77510d421deaf0c0a109fb8bb
+|   |   |       
+|   |   +---09
+|   |   |       eb01b30e10843caf8b802628bd07e4f85d20dd
+|   |   |       
+|   |   +---0a
+|   |   |       dd948cc6e4d48bfc85003401ad55d26beb1445
+|   |   |       
+|   |   +---0d
+|   |   |       cf195f9ed964e0fb3d7fa487c72aeb0dc68c65
+|   |   |       
+|   |   +---0e
+|   |   |       4433fe45305d631a74dcad19bfaaf562f04a67
+|   |   |       
+|   |   +---10
+|   |   |       035aa67e5302be30aa692d7233e94f44f88055
+|   |   |       516f93f9eb4e361ab00953e30d160907e2a79c
+|   |   |       
+|   |   +---14
+|   |   |       75f5fc2134d3d2528d60c65df9a5738c3f85f9
+|   |   |       
+|   |   +---15
+|   |   |       4d3c458f44af35cbca1ca95ba450949431bacc
+|   |   |       
+|   |   +---1b
+|   |   |       ca95169f1ddc1e2bbdab5c923983a80e6a81fd
+|   |   |       
+|   |   +---1c
+|   |   |       1edcb75ac1a29dc5ff3f49d54a04d23b28d5e7
+|   |   |       794eb33611c0ba19354db402224a8ebdc92027
+|   |   |       f29b1f933728e6ad9a922691e44e461ec0475a
+|   |   |       
+|   |   +---20
+|   |   |       3cd19e808603c50acbc8e8b011f7c5686575c8
+|   |   |       
+|   |   +---22
+|   |   |       24f42bd2d8246ddbf2ba89551de0c6565966b2
+|   |   |       9dfdb1f115f3aa2dfd6f10bcfbe1310390268a
+|   |   |       
+|   |   +---23
+|   |   |       02ef7d3aae00ce17efb5925a242f94c280f823
+|   |   |       cadb119c58a27bed164530e44f5e01db209f0d
+|   |   |       
+|   |   +---24
+|   |   |       1fb5c2f4f5db890300877ac1f010bdb8eb6571
+|   |   |       
+|   |   +---25
+|   |   |       cc15ed1c52509ceb70492aece76f5bcdd36ea9
+|   |   |       
+|   |   +---27
+|   |   |       bea61e6d3969d485b23531ed3fa6f95f64b548
+|   |   |       
+|   |   +---2a
+|   |   |       ad5fc800b351de78ffc48c9506fded76072c6f
+|   |   |       
+|   |   +---30
+|   |   |       25cf320de56ad91076db0c6c6c6009210d23ca
+|   |   |       7bcea9c7687fa4327e11b634f64036909efcf7
+|   |   |       
+|   |   +---33
+|   |   |       5223515db55dd99a4c274c9ccc8cca04e3c313
+|   |   |       
+|   |   +---34
+|   |   |       2aa73843a246c5138c898d1349019b12dcf32f
+|   |   |       ab6c6d710ad63f6d9432829045826823e9866d
+|   |   |       b4e2c44c49c707873a40e429a07d54a2916da6
+|   |   |       
+|   |   +---35
+|   |   |       d8689cd487b06dbdf29c249e1dfc8938c9f2b0
+|   |   |       
+|   |   +---3d
+|   |   |       4751f0efa2a63e70a86c898b8a1d4266e70938
+|   |   |       b802b19a06204b14e4a36371174262e21a049b
+|   |   |       
+|   |   +---40
+|   |   |       4d2a7c2f37dd01e1aa1938bcaab8d81bc707b7
+|   |   |       84311ffc2ef381003be9801af6f8de988b3df7
+|   |   |       
+|   |   +---41
+|   |   |       98f1f7fefee648d49bd2d0b42190f47e326fc7
+|   |   |       
+|   |   +---47
+|   |   |       25f56f54ebc31ea9737f90260d8b965db2aa5e
+|   |   |       434b37d03c3cc7a183cd636f002986da1abdfc
+|   |   |       
+|   |   +---48
+|   |   |       0fec3647dba419d7d694fa48c9ffb83866bb05
+|   |   |       383bba81fea26f3f29458de894e2361cbd448a
+|   |   |       
+|   |   +---4a
+|   |   |       ff1ae119b8b28dd875d8fa8879fe4a2ef18841
+|   |   |       
+|   |   +---4b
+|   |   |       5512f4664f403ab457b21cc55936cfc3fd5432
+|   |   |       
+|   |   +---4d
+|   |   |       7f50f6c6b31f8ab1d1fd4411264ef2a3d15129
+|   |   |       
+|   |   +---50
+|   |   |       1cbb7a9c9188df80b10689ad2e263286bf8b59
+|   |   |       6e0905cbced9d4b16b17ee4cc5d31c20bc8257
+|   |   |       
+|   |   +---52
+|   |   |       50df60004f5e4048fb2cf6ed0ffb50c32ef541
+|   |   |       
+|   |   +---53
+|   |   |       8c9bc8d173074755c7b6b0c70a98c295a258c0
+|   |   |       ea5b5d04cbaebcc3df816f49bdc8199a2f0176
+|   |   |       
+|   |   +---55
+|   |   |       a89d53439a27c676415c3048072ebad33a22a1
+|   |   |       
+|   |   +---57
+|   |   |       e386a685f22d304bcc7b3dc933a3f8e7897b22
+|   |   |       
+|   |   +---5b
+|   |   |       d81489769292c9285999fa4ab03ef84a288765
+|   |   |       
+|   |   +---60
+|   |   |       a0258c0d9e1398a37910c642935468e72cffa9
+|   |   |       
+|   |   +---61
+|   |   |       f8683541e5c117e803e5a915ea3bb2ab8a1a55
+|   |   |       
+|   |   +---62
+|   |   |       8d75ce5c1b4d788dca325a077e5bc8b5385d84
+|   |   |       cb5095689edd16acdb1c37997d40abbc819d8e
+|   |   |       
+|   |   +---63
+|   |   |       42532e8386f15978697ccb64a4f2d5cd071c38
+|   |   |       b7d4fa0991147655077a50ad696811d48b8566
+|   |   |       
+|   |   +---6a
+|   |   |       d343ef9414ace99d2a73d3338c2668e7cd6d3c
+|   |   |       
+|   |   +---6c
+|   |   |       9a01d2bca025c7292fd0f59cffe9d28d864c70
+|   |   |       b492c244d3f4c8ea02a1c4f097bb72a81fe272
+|   |   |       
+|   |   +---6d
+|   |   |       63abdf12a4b3e575362329c6b9672805b0a417
+|   |   |       
+|   |   +---6e
+|   |   |       d99a887e9d694ad5ded2e28206c11d7eba80e0
+|   |   |       
+|   |   +---6f
+|   |   |       e058a779460f4a017c745389f02e63b4823f64
+|   |   |       
+|   |   +---70
+|   |   |       4c09d18890106bd0f6c3a969c9def42069cea1
+|   |   |       
+|   |   +---71
+|   |   |       099ee6fc25cb8b1ccf5f599b4a8d2e215d2e65
+|   |   |       
+|   |   +---72
+|   |   |       b9f20de38d9d6192ac50514f124be742beca77
+|   |   |       
+|   |   +---73
+|   |   |       81be21cc907ae30d1946c0ae00f0cc0e296f0d
+|   |   |       c7bfe85f01815f98cea1f0379a88836554bf6f
+|   |   |       
+|   |   +---78
+|   |   |       245e913e146fa102ff9aab9f2da449c310ea7d
+|   |   |       
+|   |   +---7a
+|   |   |       8d649449a85f0f76b41e73a740cce50c03260f
+|   |   |       d504601f6b7f0ea1015ac18ee9958b2821f6c5
+|   |   |       f47922057d98f53264b628ca8f82ea989c490a
+|   |   |       
+|   |   +---7b
+|   |   |       2eeb76b7ce7fb88977bc43da32a0a3d802be8a
+|   |   |       
+|   |   +---7d
+|   |   |       0bbc196f9dadd5c3f939013b3ac53dceb1aecb
+|   |   |       c1e0b0ce8f3b5a117d59a5c16f257f4795bb76
+|   |   |       
+|   |   +---7e
+|   |   |       4fd929d10235799a93964f7968e59b7dedef99
+|   |   |       
+|   |   +---83
+|   |   |       5c7873b394ce0655250f184af4fe0d22a2d8ee
+|   |   |       
+|   |   +---85
+|   |   |       0e552b37f69068e6c76a0d7383c091a2631bf2
+|   |   |       
+|   |   +---86
+|   |   |       ffbf6ec733083acc05b55d93cc8daa45c73814
+|   |   |       
+|   |   +---88
+|   |   |       889616a9be54bac1b50158269db2bb015bfde2
+|   |   |       
+|   |   +---89
+|   |   |       f122741ea49d7affb2c8766af5f6d84bb1ccfe
+|   |   |       
+|   |   +---8b
+|   |   |       137891791fe96927ad78e64b0aad7bded08bdc
+|   |   |       deb29bfd255d51b710fb2d6b2de5eaf6b2a6e6
+|   |   |       
+|   |   +---96
+|   |   |       2a8d4d17e4d2f50910c86a5c6675f136e6c1eb
+|   |   |       2af87bca1cb88ee68ec87e2332aac0a6b42171
+|   |   |       3007fe9480309c0fad4647d28e35ff048e9e50
+|   |   |       
+|   |   +---99
+|   |   |       417f9961608906b3bfbc07b5983c8f8ad8c970
+|   |   |       
+|   |   +---9c
+|   |   |       67f17d9271a8f9c200607f5f10fe3a0b551079
+|   |   |       
+|   |   +---a0
+|   |   |       f53f76eb837334bdf16151a8e9a443583be3e8
+|   |   |       
+|   |   +---a1
+|   |   |       0c1bbe37783269985944d1cbe9c5a6031577cd
+|   |   |       
+|   |   +---a2
+|   |   |       641c92e3606f6d8655aadf795beb8c01b36dec
+|   |   |       
+|   |   +---a4
+|   |   |       32877500182b9375b93aebaa2a682084466bf6
+|   |   |       
+|   |   +---ad
+|   |   |       8779b855459cd700ccb0adc8f422417cb29c8b
+|   |   |       
+|   |   +---af
+|   |   |       69a8c5e7f7d0a98dfdfcf54d7da0436df7ce32
+|   |   |       
+|   |   +---b0
+|   |   |       691878f557c6681dbd93c12b5d3c0f1a504625
+|   |   |       
+|   |   +---b1
+|   |   |       41cac62509abd89bd6fc9ead2b12c3e0b1b7b1
+|   |   |       6ef3354af39796cb486025fdca03481e42fe47
+|   |   |       
+|   |   +---b2
+|   |   |       31041f8bacb8f4fb3a2c2862a3d172db4fadc8
+|   |   |       b2c4722a4c9c66210756c5d32ae4fe9b4126f5
+|   |   |       
+|   |   +---b4
+|   |   |       cc5d10f06b3104e01448b63a8947fa7c4e51e2
+|   |   |       
+|   |   +---b5
+|   |   |       171bc9ba44c9d066029cd42c978f126397c43f
+|   |   |       
+|   |   +---b7
+|   |   |       f239ce7064e8c10f01f93238c5c1ac87aa2fbb
+|   |   |       
+|   |   +---b8
+|   |   |       205e01c7a93613d557827f1237dbf186babfcb
+|   |   |       ff7bed96885f7c95732e32139c346497ecd479
+|   |   |       
+|   |   +---bb
+|   |   |       89305610191782c45a18cd3f3851d488281ead
+|   |   |       92deb2eea83a281b9d37a55f1c67383091871c
+|   |   |       
+|   |   +---bd
+|   |   |       b6889b7d6af90d696241a19a0e465b6dd965cf
+|   |   |       
+|   |   +---be
+|   |   |       b8e2c49bdce5d502d7fee2929661a828894a3d
+|   |   |       
+|   |   +---c3
+|   |   |       7a138f48e5c387f9dba39131b696ccdac5e990
+|   |   |       
+|   |   +---c6
+|   |   |       8962054d58d33b764305656d1d20750519eb9c
+|   |   |       
+|   |   +---cb
+|   |   |       e9ad48c127a16a39eb0ae4404657e50699462b
+|   |   |       
+|   |   +---cd
+|   |   |       08c1bc0f796860b7db444e7c944cdb9618fab4
+|   |   |       23af54d2a9453f380cf802c6773886353a9d30
+|   |   |       b01208c9c2796a5755a8fbb9b73caebd76bc91
+|   |   |       
+|   |   +---ce
+|   |   |       acaa06bb5aef11a190db26453ef83520b59a2f
+|   |   |       
+|   |   +---d0
+|   |   |       ff8f24d6905eb148a01d1d6000a16bc825e669
+|   |   |       
+|   |   +---d2
+|   |   |       bd908b5d11f6a1bf7574de0f723f00e9d69272
+|   |   |       
+|   |   +---d4
+|   |   |       335d08f3d12d291530e9a03354486c4d8e70d4
+|   |   |       
+|   |   +---d6
+|   |   |       12596bcd454290ed9d4f8afe2ff522b886f532
+|   |   |       23c1a0c245cbd435b31d380bed2b5c7315c336
+|   |   |       c3e93af038915a4caf6117e31ef43d0d3f4c29
+|   |   |       
+|   |   +---d7
+|   |   |       c1c6c14eb97951130d632e34c635924071d6a2
+|   |   |       
+|   |   +---d8
+|   |   |       324ea36f0d166f97ed76c838381d79c3cf85ff
+|   |   |       702d79cbe9bac186dbb64a5084492c3c6ca16d
+|   |   |       8111e03509aaca00c0158bc1275170c1134c07
+|   |   |       
+|   |   +---d9
+|   |   |       6e5f2ced6e3c19485e402c4bde10721b13ddda
+|   |   |       92d75ac572251a7d0f4597e8208e353cdb4163
+|   |   |       
+|   |   +---dc
+|   |   |       2c0525e210daf12805f6477346a723c20c834f
+|   |   |       
+|   |   +---dd
+|   |   |       13f6ac5512cebc7b3c627b5129e701fae5ee07
+|   |   |       
+|   |   +---df
+|   |   |       29e29abc63a791617f95d7cbb1a3d9a5392602
+|   |   |       
+|   |   +---e0
+|   |   |       2e4e66b925a7513473adc872ce5be5d1d685fc
+|   |   |       
+|   |   +---e1
+|   |   |       16c83bf013cb5cedfd0c519215e4d88460dcb7
+|   |   |       404b3b97e0060dd9ad0886cbcecca729a79132
+|   |   |       
+|   |   +---e2
+|   |   |       983dc7f0d6cf36353883ce9a8922e4e2ace827
+|   |   |       
+|   |   +---e5
+|   |   |       824595f0406be837fa81d76a125d44129c4052
+|   |   |       
+|   |   +---e6
+|   |   |       9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+|   |   |       
+|   |   +---e7
+|   |   |       2a33a5b3dff15a954c4b25d2f3eb6cb7072f58
+|   |   |       a00418f8f34c81f466c33dae0963efe5889d00
+|   |   |       
+|   |   +---e8
+|   |   |       33b360398ae708517c79cb6ec5cce88bf1712c
+|   |   |       
+|   |   +---ea
+|   |   |       a3f7e4bd6faa58ed78202843ada33900910fbe
+|   |   |       
+|   |   +---eb
+|   |   |       24da940fb7a94696f468964ba0b4abb4ac5c9c
+|   |   |       
+|   |   +---ef
+|   |   |       8857cb4337824869580a13d8fa5d8d6582fdb8
+|   |   |       
+|   |   +---f1
+|   |   |       0691c2a9b108b76ec871d6ebd9a27bcb95dcf2
+|   |   |       
+|   |   +---f3
+|   |   |       5aff074b62f746ed8cfc385f3949db84aa0baf
+|   |   |       
+|   |   +---f4
+|   |   |       905f529e0b02b268b482e6dddb0247303c8359
+|   |   |       
+|   |   +---f6
+|   |   |       16e088bf6eb4fd6332f99e407821886960f525
+|   |   |       7211342cde6b41cc47042dab62a2f10b1b1c58
+|   |   |       a2c38148fc25a392e3260b2d2489ade9f68a62
+|   |   |       
+|   |   +---f7
+|   |   |       64cb6da03e579b1bdfdcdcb0688c1b3b4a1cfb
+|   |   |       f6b4638ea4a26d4e82e1d726d412ec28028e2c
+|   |   |       
+|   |   +---f8
+|   |   |       407547d0146bb842dd61b4b8de12e9f88598da
+|   |   |       93a6594dcae789e1318d6638a32c60f3f043a5
+|   |   |       
+|   |   +---fa
+|   |   |       612625e4f0d1c998d6eb3301a4650b4c459d8c
+|   |   |       
+|   |   +---fc
+|   |   |       3b7c620aa0774e00ef2b7fb19b3a57b9ff9799
+|   |   |       
+|   |   +---fd
+|   |   |       5acaaa0f7564ed5930f980a81bb1826519e5d0
+|   |   |       
+|   |   +---info
+|   |   \---pack
+|   \---refs
+|       +---heads
+|       |       dev
+|       |       
+|       +---remotes
+|       |   \---origin
+|       |           dev
+|       |           
+|       \---tags
++---exercicio02
+|   |   cachorro.py
+|   |   gato.py
+|   |   main02.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           cachorro.cpython-312.pyc
+|           gato.cpython-312.pyc
+|           main02.cpython-312.pyc
+|           __init__.cpython-312.pyc
+|           
++---exercicio03
+|   |   carro.py
+|   |   main03.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           carro.cpython-312.pyc
+|           main03.cpython-312.pyc
+|           __init__.cpython-312.pyc
+|           
++---exercicio04
+|   \---banco
+|       |   conta.py
+|       |   main04.py
+|       |   
+|       \---__pycache__
+|               conta.cpython-312.pyc
+|               main04.cpython-312.pyc
+|               
++---exercicio05
+|   |   main05.py
+|   |   
+|   +---info_estudante
+|   |   |   curso.py
+|   |   |   estudante.py
+|   |   |   
+|   |   \---__pycache__
+|   |           estudante.cpython-312.pyc
+|   |           
+|   \---__pycache__
+|           main05.cpython-312.pyc
+|           
++---exercicio06
+|   |   main06.py
+|   |   
+|   +---emprestimo_livros
+|   |   |   bibliotecario.py
+|   |   |   livro.py
+|   |   |   
+|   |   \---__pycache__
+|   |           bibliotecario.cpython-312.pyc
+|   |           bibliotecario.cpython-314.pyc
+|   |           livro.cpython-312.pyc
+|   |           livro.cpython-314.pyc
+|   |           
+|   \---__pycache__
+|           main06.cpython-312.pyc
+|           
++---exercicio07
+|   |   main07.py
+|   |   
+|   \---gerenciamento_dep
+|           departamento.py
+|           
++---exercicio08
+|   |   main08.py
+|   |   
+|   +---cliente_produto
+|   |   |   cliente.py
+|   |   |   produto.py
+|   |   |   
+|   |   \---__pycache__
+|   |           cliente.cpython-312.pyc
+|   |           cliente.cpython-314.pyc
+|   |           produto.cpython-312.pyc
+|   |           
+|   \---__pycache__
+|           main08.cpython-312.pyc
+|           
++---exercicio09
+|   |   main09.py
+|   |   
+|   +---filme
+|   |   |   categorias_info.py
+|   |   |   filme_info.py
+|   |   |   
+|   |   \---__pycache__
+|   |           categorias.cpython-312.pyc
+|   |           categorias_info.cpython-312.pyc
+|   |           filme_info.cpython-312.pyc
+|   |           
+|   \---__pycache__
+|           main09.cpython-312.pyc
+|           
++---exercicio10
+|   |   main10.py
+|   |   
+|   +---pedidos
+|   |   |   cliente_info.py
+|   |   |   pedido_info.py
+|   |   |   
+|   |   \---__pycache__
+|   |           cliente_info.cpython-312.pyc
+|   |           pedido_info.cpython-312.pyc
+|   |           
+|   \---__pycache__
+|           main10.cpython-312.pyc
+|           
++---material
+|       01 introdução POO.pdf
+|       
+\---__pycache__
+        modulos.cpython-312.pyc
+        

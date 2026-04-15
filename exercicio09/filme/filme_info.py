@@ -1,4 +1,5 @@
-from filme.categorias_info import categorias
+from .categorias_info import categorias
+
 cat = categorias()
 cat = categorias
 class filmes:

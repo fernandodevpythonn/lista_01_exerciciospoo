@@ -20,7 +20,10 @@ def main09():
                 cat.inserir_categoria(cat.nome)
             case "2":
                 filme.nome = input("Nome do filme: ")
-                filme.ano_lancamento = int(input("ano de lançamento do filme: "))
+                try:
+                 filme.ano_lancamento = int(input("ano de lançamento do filme: "))
+                except ValueError:
+                    print("Erro: ano inválido")
                 filme.criador = input("Nome do autor(a): ")
                 print(cat.categorias)
                 filme.categoria = input("Qual categoria deseja inserir? ")
@@ -33,4 +36,3 @@ def main09():
             case "4":
                 print("----Categorias----- ")
                 cat.mostrar_categorias()
-    

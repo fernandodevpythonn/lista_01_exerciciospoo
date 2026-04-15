@@ -17,7 +17,10 @@ def main06():
         livro.nome = input("Nome do livro: ")
         livro.autor = input("Autor do livro:")
         livro.material = input("Material do livro: ")
-        livro.codigo = int(input("Código do livro: "))
+        try:
+         livro.codigo = int(input("Código do livro: "))
+        except ValueError:
+          print("erro: valor inválido")
         biblioteca.responsavel = input("Nome do responsável: ")
         biblioteca.data_emprestimo = input("Data de empréstimo: ")
         biblioteca.data_devolucao = input("Data de devolução: ")

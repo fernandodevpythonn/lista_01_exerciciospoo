@@ -26,13 +26,15 @@ def main():
                 main05()
             case "6":
                 main06()
-            # case "7":
-            #     # main07()
+            case "7":
+                pass
+                # main07()
             case "8":
                 main08()
             case "9":
                 main09()
             case "10":
                 main10()
+
 if __name__ == "__main__":
     main()

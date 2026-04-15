@@ -15,10 +15,16 @@ def main05():
    match opcao:
      case "1":
        estudante.nome = input("Nome do aluno: ")
-       estudante.idade = int(input("idade do aluno: "))
+       try:
+        estudante.idade = int(input("idade do aluno: "))
+       except ValueError:
+         print("erro: valor inválido")
        estudante.matricula = int(input("Número de mátricula: "))
-       estudante.nota = int(input("Nota do aluno: "))
-       estudante.lista_notas.append(estudante.nota)
+       try:
+         estudante.nota = int(input("Nota do aluno: "))
+         estudante.lista_notas.append(estudante.nota)
+       except ValueError:
+         print("erro: valor inválido")
      case "2":
        estudante.mostrar_lista_notas()
        estudante.calculo_media()

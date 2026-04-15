@@ -1,4 +1,4 @@
-from pedidos.cliente_info import cliente
+from .cliente_info import cliente
 cli = cliente()
 
 class pedido:

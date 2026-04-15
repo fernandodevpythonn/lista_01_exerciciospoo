@@ -18,7 +18,10 @@ def main08():
 
     case "1":
       cli.nome = input("Nome: ")
-      cli.cpf = int(input("cpf: "))
+      try:
+       cli.cpf = int(input("cpf: "))
+      except ValueError:
+        print("erro: valor inválido")
       cidade = input("Cidade: ")
       bairro = input("Bairro: ")
       rua = input("Rua: ")
@@ -37,7 +40,10 @@ def main08():
     case "3":
       prod.produto_nome = input("Nome do produto: ")
       prod.produto_marca = input("Marca: ")
-      prod.produto_valor = float(input("Valor: "))
+      try:
+       prod.produto_valor = float(input("Valor: "))
+      except ValueError:
+        print("erro: valor inválido")
       prod.inserir_produtos(prod.produto_nome)
       input("aperte enter para voltar")
 

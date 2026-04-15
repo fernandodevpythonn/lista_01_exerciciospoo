@@ -18,12 +18,18 @@ def main10():
         match opcao:
             case "1":
                 cli.nome = input("Nome do cliente: ")
-                cli.cpf = int(input("CPF do Cliente: "))
+                try:
+                 cli.cpf = int(input("CPF do Cliente: "))
+                except ValueError:
+                    print("Erro: cpf inválido")
                 print("---endereço---")
                 cidade = input("cidade: ")
                 bairro = input("bairro: ")
                 rua = input("rua: ")
-                numero = int(input("Número: "))
+                try:
+                 numero = int(input("Número: "))
+                except ValueError:
+                   print("Erro: número inválido")
                 cli.adicionar_endereco(cidade,bairro,rua,numero)
             case "2":
                 ped.produto = input("Produto: ")
@@ -32,7 +38,10 @@ def main10():
                 cidade = input("cidade: ")
                 bairro = input("bairro: ")
                 rua = input("rua: ")
-                numero = int(input("número: "))
+                try:
+                 numero = int(input("número: "))
+                except ValueError:
+                   print("erro: número inválido")
                 ped.adicionar_endereco(cidade,bairro,rua,numero)
                 ped.mostrar_endereco()
                 ped.mostrar_pedido()
