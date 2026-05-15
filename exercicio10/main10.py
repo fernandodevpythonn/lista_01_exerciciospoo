@@ -50,3 +50,6 @@ def main10():
                 cli.mostrar_endereco()
             case "4":
                 ped.mostrar_pedido()
+            case "5":
+              print("sistema fechado")
+              break

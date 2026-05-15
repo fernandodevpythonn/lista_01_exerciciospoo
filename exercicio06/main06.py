@@ -29,3 +29,6 @@ def main06():
         livro.mostrar_livro()
         print(f"Livro: {livro.nome} emprestado para {biblioteca.responsavel}")
         print("")
+      case "3":
+        print("sistema fechado")
+        break

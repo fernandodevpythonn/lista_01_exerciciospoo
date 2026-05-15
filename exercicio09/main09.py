@@ -36,3 +36,6 @@ def main09():
             case "4":
                 print("----Categorias----- ")
                 cat.mostrar_categorias()
+            case "5":
+                print("sistema fechado")
+                break

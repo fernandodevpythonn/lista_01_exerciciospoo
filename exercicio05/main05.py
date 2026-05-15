@@ -6,8 +6,7 @@ estudante = estudante()
 def menu():
   print("1 - cadastrar estudante ")
   print("2 - Dados do estudante")
-  print("3 - Dados do curso")
-  print("4 - Fechar")
+  print("3 - Fechar")
 def main05():
   while True:
    menu()
@@ -28,3 +27,6 @@ def main05():
      case "2":
        estudante.mostrar_lista_notas()
        estudante.calculo_media()
+     case "3":
+       print("sistema fechado")
+       break
